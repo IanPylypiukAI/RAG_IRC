@@ -2,7 +2,7 @@
 Module for processing the PDF version of the US Internal Revenue Code.
 
 Before running in Google Colab:
-- Switch runtime to GPU (x6 faster than CPU).
+- Switch runtime to GPU (x60 faster than CPU).
 - Add the required secrets via Colab:
   - HUGGINGFACE_TAX_APP_SECRET
   - QDRANT_CLIENT_API_KEY
