@@ -1,4 +1,4 @@
-# Tax Chatbot AI — Ingestion Script
+# Tax Chatbot AI
 
 This repository contains scripts for building a **Retrieval-Augmented Generation (RAG)** system for U.S. tax law using **LLaMA3** and **BGE-M3** embeddings.
 
@@ -16,8 +16,8 @@ Currently, the repository includes:
 2. **Read and parse PDF documents**  
    Uses `PyMuPDFReader` to read PDFs and split the content into nodes for embeddings.
 
-3. **HuggingFace and Groq integration**  
-   Authenticates with Hugging Face for embedding models and Groq for LLM usage.
+3. **HuggingFace and Groq integration (Llama3)**  
+   Authenticates with Hugging Face for embedding models and Groq API for LLM usage.
 
 4. **Create embeddings with BGE-M3**  
    Generates vector embeddings for each text chunk.
